@@ -1,5 +1,4 @@
 import pandas as pd
 
 volume = pd.read_csv("volume_production.csv")
-print(volume.head( ))
-
+price = pd.read_csv("prices.csv")
