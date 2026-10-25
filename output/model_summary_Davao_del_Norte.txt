@@ -1,0 +1,23 @@
+                               SARIMAX Results                                
+==============================================================================
+Dep. Variable:        Davao del Norte   No. Observations:                  198
+Model:               SARIMAX(0, 1, 0)   Log Likelihood                  38.333
+Date:                Sat, 24 Oct 2026   AIC                            -72.667
+Time:                        14:57:17   BIC                            -66.101
+Sample:                    01-01-2010   HQIC                           -70.009
+                         - 06-01-2026                                         
+Covariance Type:                  opg                                         
+================================================================================
+                   coef    std err          z      P>|z|      [0.025      0.975]
+--------------------------------------------------------------------------------
+log_volume_z     0.0245      0.016      1.525      0.127      -0.007       0.056
+sigma2           0.0388      0.004     10.889      0.000       0.032       0.046
+===================================================================================
+Ljung-Box (L1) (Q):                   2.07   Jarque-Bera (JB):                 3.50
+Prob(Q):                              0.15   Prob(JB):                         0.17
+Heteroskedasticity (H):               0.55   Skew:                             0.12
+Prob(H) (two-sided):                  0.02   Kurtosis:                         3.61
+===================================================================================
+
+Warnings:
+[1] Covariance matrix calculated using the outer product of gradients (complex-step).
